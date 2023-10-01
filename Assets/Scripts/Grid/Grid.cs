@@ -20,5 +20,10 @@ public class Grid
     /// <summary>
     /// 格子的游戏对象
     /// </summary>
-    public GameObject GameObject;
+    public GameObject GridGameObject;
+    
+    /// <summary>
+    /// 各自类型游戏对象
+    /// </summary>
+    public GameObject GridTypeGameObject;
 }
