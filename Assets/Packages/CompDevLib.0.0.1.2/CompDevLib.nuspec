@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>CompDevLib</id>
+    <version>0.0.1.2</version>
+    <title>CompDevLib</title>
+    <authors>CompDevLib</authors>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/CompDevLib/CompDevLib</projectUrl>
+    <description>Utilities for c# development - mainly for game dev.</description>
+    <tags>CSharp, Utilities, Game Dev</tags>
+    <repository type="git" url="https://github.com/CompDevLib/CompDevLib" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
